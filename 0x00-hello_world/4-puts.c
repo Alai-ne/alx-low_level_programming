@@ -1,11 +1,10 @@
-#!/bin/bash
 #include<stdio.h>
 /**
- * main -entry point 
+ * main - Entry point 
  *
- * return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
-init main(void)
+int main(void)
 {
-	puts("\"programming is like building a multitingual puzzl");return (0)
+	puts("\"programming is like building a multilingual puzzle");return (0);
 }
