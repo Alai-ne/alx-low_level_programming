@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
 *main - entry point
-*Hello,World
+*My hello, puts task
 *
 *return: always 0 (success)
 */
