@@ -1,17 +1,21 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Discription: 'print Alphabets lowercase'
+ *Discription: 'print numbers of base 16'
  *Return: Always 0
  */
 int main(void)
 {
-	int n = 97;
+	int n;
+	int m;
 
-	while (n <= 122)
+	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
-		n++;
+	}
+	for (n = 97; m <= 102; n++)
+	{
+		putchar(m);
 	}
 	putchar('\n');
 	return (0);
