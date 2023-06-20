@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int addFive(int i) 
+{
+return i + 5;
+}
+
+so_file = "./c_functions.so"
+c_functions = CDLL(so_file)
+
+c_functions.addFive(10)
